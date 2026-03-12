@@ -1,0 +1,13 @@
+[project]
+name = "llm-model-filter"
+version = "0.1"
+description = "Filter llm models list by starring favorites"
+authors = [
+    { name = "Thomas" },
+]
+dependencies = [
+    "llm",
+]
+
+[project.entry-points.llm]
+model_filter = "llm_models_mod"
