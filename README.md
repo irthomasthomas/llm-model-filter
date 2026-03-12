@@ -54,3 +54,7 @@ llm models unstar gpt-4o
 This plugin wraps the `llm models list` command. It uses a robust callback-modification technique to ensure compatibility with existing flags while providing the filtering logic.
 
 Starred models and configuration are stored in `llm.user_dir() / "models_mod_starred.json"`.
+
+## Plugin directory
+
+This plugin is listed in the [LLM plugin directory](https://llm.datasette.io/en/stable/plugins/directory.html) under **Extra commands**.
