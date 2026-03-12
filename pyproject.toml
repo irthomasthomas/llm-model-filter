@@ -1,6 +1,7 @@
 [project]
 name = "llm-model-filter"
-version = "0.1"
+version = "0.1.1"
+readme = "README.md"
 description = "Filter llm models list by starring favorites"
 authors = [
     { name = "Thomas" },
